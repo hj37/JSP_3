@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 				   서블릿을 요청할 가짜주소
+	<form action="톰캣이 실행할 서버페이지의 주소(로그인요청할 서블릿페이지의 매핑주소)">
+	
+클라이언트가 서블릿으로 요청하는 요청방식은 get방식과 post방식으로 나뉜다.
+method속성의 값은 get 또는 post 두가지중 하나를 입력할수 있다.
+get방식 : 웹브라우저 주소창에 주소를 입력하여 적은양의 요청데이터를 서블릿으로 요청할떄 사용함
+                또는  form태그의 method속성에 get이라고 지정하여 적은양의 요청데이터를 서블릿으로 요청할때 사용함.
+                특징은  웹브라우저 주소창에 요청하는 값이 노출이 되어서 보안에 취약하다. 
+post방식 : 많은 데이터를 서블릿으로 요청시 사용하는 방식으로  
+          form태그에서 method속성의 값을 post로지정해서 사용함.   -->              
+	<form action="login4" method="post">
+		아이디 : <input type="text" name="user_id" /> <br>
+		비밀번호 : <input type="password" name="user_pw"/> <br>
+		<input type="submit" value="로그인"/>
+		<input type="reset" value="다시입력"/>
+	</form>
+
+</body>
+</html>
+
+
+
